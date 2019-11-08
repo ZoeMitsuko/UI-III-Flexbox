@@ -57,10 +57,136 @@ html, body {
     font-family: 'Titillium Web', sans-serif;
 }
 
-h1, h2, h3, h4, h5 {
+h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	text-align: left;
 }
+h1 {font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+	margin-bottom: 0px;
+	font-size:200px;}
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	max-width:auto;
+	  margin: ;
+	  background: white;
+	  padding: 10px 150px;
+  }
+.navbar{
+	background: none;
+	width: auto;
+	height: 50px;
+	display: flex!important;
+  	flex-direction:row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-evenly;
+  }
+  .item {
+	width:350px;
+  /*   height: 30px; */
+	padding: 5px;
+  /*   margin: 10px; */
+	border:none;
+	background: none;
+	color: darkgrey;
+	font-size: larger
+  /*   display: inline-block; */
+  }
+ 
+
+  .contentbox2{
+	background: pink;
+	display: flex!important;
+  	flex-direction:row;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-around;
+}
+
+.content2{
+    border: 2px;
+    display: inline-block;
+    vertical-align: middle;
+    margin:10%;
+    width: 30%;
+	min-width: auto;
+	text-align:center;
+}
+	
+.contentbox3{
+	background: lavenderblush;
+display: flex!important;
+  flex-direction:row;
+justify-content: center;
+align-items: stretch;
+align-content: space-around;
+  }
+
+.content3 {
+	border: 2px;
+    display: inline-block;
+    vertical-align: middle;
+	margin:20px;
+	padding:20px;
+	height: auto;
+    width: 50%;
+	min-width: auto;
+	font-size:70px;
+
+}
+
+	
+
+.header {
+	display: inline-block;
+	text-align:center;
+	height: 20px;
+	width: 10px;
+	font-size: 80px;
+	padding: 50px;
+}
+	
+}
+button {
+	white-space: wrap;
+	width: 100px;
+	margin: 50px;
+
+	
+}
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	padding: 20px 0px;
+  }
+
+
+  .top-content{
+   
+	display: inline-block;
+	vertical-align: middle;
+   
+    margin: 3%;
+    width: 40%;
+    min-width: 150px;
+}
+.bottom-content {
+	vertical-align: middle;
+	display: inline-block;
+	margin: 3%;
+    width: 25%;
+    min-width: 150px;
+
+}
+.copyright {
+	text-align: center;
+}
+
