@@ -160,17 +160,8 @@ align-content: space-around;
     width: 50%;
 	min-width: auto;
 	font-size: 50px;
-
-
-	
 }
-button {
-	white-space: wrap;
-	width: 100px;
-	margin: 50px;
 
-	
-}
 img {
 	display: block;
 	margin-left: auto;
@@ -209,7 +200,14 @@ img {
 	 margin:20px;
  }
 
-
+ button {
+	background-color: white;
+	color: black;
+	border: 2px solid #222222;
+	border-radius: 8px;
+	width: 25%;
+	height: 15%;
+  }
 
 
 
@@ -276,3 +274,7 @@ img {
 		padding: 40px;
 		line-height: 90px;
 	}
+div a:link	{color:none;}
+div a:visited {color: none;}
+div a:hover   {color: lightpink;}
+div a:active  {color: none;}
