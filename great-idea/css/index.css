@@ -74,11 +74,12 @@ h1 {font-family: 'Bangers', cursive;
 	  margin: ;
 	  background: white;
 	  padding: 10px 150px;
+	  
   }
 .navbar{
 	background: none;
 	width: auto;
-	height: 50px;
+	height: 100px;
 	display: flex!important;
   	flex-direction:row;
 	flex-flow: row wrap;
@@ -94,7 +95,7 @@ h1 {font-family: 'Bangers', cursive;
 	border:none;
 	background: none;
 	color: darkgrey;
-	font-size: larger
+	font-size: 30px;
   /*   display: inline-block; */
   }
  
@@ -214,3 +215,44 @@ img {
 
 
 /* SERVICE PAGE CSS STARTS NOW*/
+.flex {
+	display: flex;
+  }
+  
+  .justify {
+	justify-content: stretch;
+  }
+  .box {
+	background: none;
+	width: auto;
+	height: 2000px;
+	display: flex!important;
+	display: block;
+  /*   flex-direction: row; /* column, row-reverse, column-reverse */ 
+  /*   flex-wrap: nowrap; /* wrap, wrap-reverse */
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-content: space-between;
+  }
+  .square {
+
+		width: 1250px;
+	  height: 600px;
+		padding: 40px;
+		margin: 15px;
+		border: 1px solid black;
+		background: #F8F8F8;
+		color: black;
+		font-size: 40px;
+		text-align:left;
+		line-height: 50px;
+	  /*   display: inline-block; */
+	  }
+	  .topbox1 {
+		  line-height: 50px;
+		padding: 40px;
+		font-size: 40px;
+		text-align:left;
+
+	  }
+	
